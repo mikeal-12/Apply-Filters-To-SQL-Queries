@@ -33,3 +33,9 @@ The following code demonstrates how I created a SQL query to filter for login at
 ![image](https://github.com/mikeal-12/Apply-Filters-To-SQL-Queries/assets/72464155/f4b9af7c-0e48-45d6-b9f0-00d8528a3665)
 
 The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all login attempts that occurred in countries other than Mexico. First, I started by selecting all data from the <code>log_in_attempts</code> table. Then, I used a <code>WHERE</code> clause with <code>NOT</code> to filter for countries other than Mexico. I used <code>LIKE</code> with <code>MEX%</code> as the pattern to match because the dataset represents Mexico as MEX and MEXICO. The percentage sign <code>%</code> represents any number of unspecified characters when used with <code>LIKE</code>. 
+
+## Retrieving employees in Marketing
+My team wants to update the computers for certain employees in the Marketing department. To do this, I have to get information on which employee machines to update.
+
+The following code demonstrates how I created a SQL query to filter for employee machines from employees in the Marketing department in the East building.
+
