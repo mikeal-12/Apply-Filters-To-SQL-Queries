@@ -29,3 +29,6 @@ The first part of the screenshot is my query, and the second part is a portion o
 After investigating the organization’s data on login attempts, I believed there was an issue with the login attempts that occurred outside of Mexico. These login attempts should be investigated.
 
 The following code demonstrates how I created a SQL query to filter for login attempts that occurred outside of Mexico. 
+
+![image](https://github.com/mikeal-12/Apply-Filters-To-SQL-Queries/assets/72464155/f4b9af7c-0e48-45d6-b9f0-00d8528a3665)
+
