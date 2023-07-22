@@ -39,3 +39,6 @@ My team wants to update the computers for certain employees in the Marketing dep
 
 The following code demonstrates how I created a SQL query to filter for employee machines from employees in the Marketing department in the East building.
 
+![image](https://github.com/mikeal-12/Apply-Filters-To-SQL-Queries/assets/72464155/df096c44-68e2-4964-90ee-edbad58a59ab)
+
+
