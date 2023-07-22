@@ -43,3 +43,13 @@ The following code demonstrates how I created a SQL query to filter for employee
 
 
 The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all employees in the Marketing department in the East building. First, I started by selecting all data from the employees table. Then, I used a <code>WHERE</code> clause with <code>AND</code> to filter for employees who work in the Marketing department and in the East building. I used <code>LIKE</code> with <code>East%</code> as the pattern to match because the data in the office column represents the East building with the specific office number. The first condition is the <code>department = 'Marketing'</code> portion, which filters for employees in the Marketing department. The second condition is the office <code>LIKE 'East%'</code> portion, which filters for employees in the East building.
+
+## Retrieving employees in Finance or Sales
+The machines for employees in the Finance and Sales departments also need to be updated. Since a different security update is needed, I have to get information on employees only from these two departments.
+
+The following code demonstrates how I created a SQL query to filter for employee machines from employees in the Finance or Sales departments.
+
+![image](https://github.com/mikeal-12/Apply-Filters-To-SQL-Queries/assets/72464155/3d03af02-23d8-4673-b3fc-133e7fed3344)
+
+
+
