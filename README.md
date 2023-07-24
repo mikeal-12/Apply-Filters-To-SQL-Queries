@@ -53,3 +53,16 @@ The following code demonstrates how I created a SQL query to filter for employee
 
 
 The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all employees in the Finance and Sales departments. First, I started by selecting all data from the employees table. Then, I used a <code>WHERE</code> clause with <code>OR</code> to filter for employees who are in the Finance and Sales departments. I used the <code>OR</code> operator instead of <code>AND</code> because I want all employees who are in either department. The first condition is <code>department = 'Finance'</code> , which filters for employees from the Finance department. The second condition is <code>department = 'Sales'</code>, which filters for employees from the Sales department.
+
+## Retrieving all employees not in IT
+My team needs to make one more security update on employees who are not in the Information Technology department. To make the update, I first have to get information on these employees.
+
+The following demonstrates how I created a SQL query to filter for employee machines from employees not in the  Information Technology department.
+
+![image](https://github.com/mikeal-12/Apply-Filters-To-SQL-Queries/assets/72464155/f4729406-633d-4d68-a9f4-8efce43ad6de)
+
+
+The first part of the screenshot is my query, and the second part is a portion of the output. The query returns all employees not in the Information Technology department. First, I started by selecting all data from the <code>employees</code> table. Then, I used a <code>WHERE</code> clause with <code>NOT</code> to filter for employees not in this department.
+
+## Summary
+I applied filters to SQL queries to get specific information on <code>login attempts</code> and <code>employee</code> machines. I used two different tables, <code>log_in_attempts</code>, and <code>employees</code>. I used the <code>AND</code>, <code>OR</code>, and <code>NOT</code> operators to filter for the specific information needed for each task. I also used <code>LIKE</code> and the percentage sign <code>%</code> wildcard to filter for patterns.
